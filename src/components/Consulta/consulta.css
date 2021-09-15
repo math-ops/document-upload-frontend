@@ -1,0 +1,39 @@
+.cons-table{
+  margin-top: 300px;
+}
+
+.di-label{
+  margin-top: 60px;
+  margin-left: 100px;
+}
+
+.di-input{
+
+  margin-top: 110px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+}
+
+.df-label{
+  margin-top: -157px;
+  margin-left: 520px;
+}
+
+.df-input{
+
+  margin-top: -107px;
+  margin-bottom: 50px;
+  margin-left: 520px;
+}
+
+.cons-button{
+  margin-top: -107px;
+  margin-left: 930px;
+}
+
+.cons-button:hover{
+  background: #fff;
+  color: #006432;
+  border: 1px solid #006432;
+  transition: 0.4s ease-out;
+}
