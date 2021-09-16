@@ -1,6 +1,6 @@
 import React from 'react'
 import './documents.css'
-import { Title, Form, Label, Input, Button, Image, Message, Modal } from './documents.js'
+import { Title, Form, Label, Input, Button } from './documents.js'
 
 //materialUI components
 import { makeStyles, withStyles } from '@material-ui/core/styles';

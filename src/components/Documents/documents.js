@@ -19,7 +19,6 @@ export const Form = styled.form`
 export const Label = styled.label`
   text-align:center;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
   font-size: 20px;
   position: absolute;
   margin-top: 20px;
