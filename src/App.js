@@ -5,6 +5,7 @@ import Consulta from './components/Consulta'
 import Login from './components/Login'
 import GlobalStyle from './styles/global'
 import Topbar from './components/Common/Topbar'
+import Background from './components/Common/Background'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <>
       <BrowserRouter>
       <Topbar />
+      <Background />
       <Switch>
         <Route path="/" exact component={Login}/>
         <Route path="/documents" exact component={Documents}/>

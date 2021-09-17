@@ -28,7 +28,26 @@ export const Title = styled.h1`
 `;
 
 
-export const Subtitle = styled.button`
+export const Logout = styled.button`
+  font-family: 'Roboto', sans-serif;
+  text-align: right;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 15px;
+  background: none;
+  border: none;
+  color: #fff;
+  margin-top: -25px;
+  margin-left: 95%;
+  margin-bottom: 5px;
+  display: flex;
+  transition: 0.4s ease-out;
+  &:hover{
+    transform: translateX(-5px);  
+  }
+`;
+
+export const Home = styled.button`
   font-family: 'Roboto', sans-serif;
   text-align: right;
   cursor: pointer;
@@ -38,7 +57,7 @@ export const Subtitle = styled.button`
   border: none;
   color: #fff;
   margin-top: -30px;
-  margin-left: 900px;
+  margin-left: 85%;
   margin-bottom: 5px;
   display: flex;
   transition: 0.4s ease-out;

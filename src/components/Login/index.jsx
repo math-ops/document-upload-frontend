@@ -1,23 +1,24 @@
 import React from 'react'
-import { Title, Form, Input, Label, Button, Check, Alert } from './login'
+import './login.css'
+import { Form, Input, Label, Button, Check, Alert } from './login'
 
 export default function Login(){
-  const error = 'Credênciais Inválidas!';
+  const error = 'Credenciais Inválidas!';
   return(
     <>
-      <Title>Bem Vindo(a)!</Title>
-      <Form>
-        <Label>Username</Label>
-        <Input type="text" />
+      <Form className="form">
+        <Label className="name">Username</Label>
+        <Input className="name-input" type="text" placeholder="Username"/>
 
-        <Label>Password</Label>
-        <Input type="password"/>
+        <Label className="password">Password</Label>
+        <Input className="pass-input" type="password" placeholder="Password"/>
 
-        <Check type="checkbox"/>
-        <Label>Remember me</Label>
-        <Button>Login</Button>
+        <Check className="check" type="checkbox"/>
+        <Label className="remember">Remember me</Label>
+        <Button className="button">Login</Button>
+        <Alert className="alert">{error}</Alert>
       </Form>
-      <Alert>{error}</Alert>
+      
     </>
   )
 }

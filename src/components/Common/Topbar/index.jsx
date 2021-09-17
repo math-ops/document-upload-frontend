@@ -1,4 +1,4 @@
-import { Header, Image, Title, Subtitle } from './topbar'
+import { Header, Image, Title, Logout, Home } from './topbar'
 import logo from '../../../styles/assets/logo.png'
 
 export default function Topbar(){
@@ -10,7 +10,8 @@ export default function Topbar(){
       <Title>
         Bem vindo(a) {name}!
       </Title>
-      <Subtitle>Logout</Subtitle>      
+      <Home>Home</Home>
+      <Logout>Logout</Logout>      
     </Header>
     </>
   )
