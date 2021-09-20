@@ -13,9 +13,10 @@ function App() {
     <>
       <BrowserRouter>
       <Topbar />
-      <Background />
-      <Switch>
+      <Background>
         <Route path="/" exact component={Login}/>
+      </Background>
+      <Switch>        
         <Route path="/documents" exact component={Documents}/>
         <Route path="/consult" exact component={Consulta}/>
       </Switch>
