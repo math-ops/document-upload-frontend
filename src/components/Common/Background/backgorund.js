@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Slider = styled.div`
     width: 100%;
-    height: 85%;
+    height: 80%;
     overflow: hidden;
 `;
 
@@ -16,12 +16,14 @@ export const Slides = styled.div`
 export const Slide = styled.div`
     width: 20%;
     transition: 2s;
+    overflow: hidden;
 
 `;
 
 export const Image = styled.img`
     width: 100%;
     height: 100%;
+    overflow: hidden;
 
 `;
 
@@ -34,7 +36,7 @@ export const AutoSlide = styled.div`
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
 
     &:not(:last-child){
         margin-right: 20px;

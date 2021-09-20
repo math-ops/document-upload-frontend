@@ -24,7 +24,6 @@ export const Title = styled.h1`
   margin-top: -37px;
   margin-bottom: 5px;
 
-
 `;
 
 
@@ -56,9 +55,9 @@ export const Home = styled.button`
   background: none;
   border: none;
   color: #fff;
-  margin-top: -30px;
+  margin-top: -25px;
   margin-left: 85%;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   display: flex;
   transition: 0.4s ease-out;
   &:hover{
