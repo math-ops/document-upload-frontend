@@ -17,8 +17,8 @@ function App() {
         <Route path="/" exact component={Background}/>    
       <Topbar />
       
-        <Route path="/documents" exact component={Documents}/>
         <Route path="/consult" exact component={Consulta}/>
+        <Route path="/documents" exact component={Documents}/>
       </Switch>
       </BrowserRouter>
 
