@@ -23,6 +23,7 @@ const StyledTableCell = withStyles((theme) => ({
   },
   body: {
     fontSize: 14,
+    background: '#fff',
   },
 }))(TableCell);
 
@@ -134,7 +135,7 @@ export default function Documents(){
     <>
       <Title>Documents</Title>
       <Form className="doc-form" >
-      <Label>Adicione um documento no formato PDF no campo abaixo!</Label>
+      <Label>Adicione um documento no formato CSV no campo abaixo!</Label>
       <Input type="file" accept="application/pdf"/>
       <Button>Adicionar</Button>
       </Form>

@@ -13,7 +13,10 @@ export const Form = styled.form`
   width: 95%;
   margin-top: 20px;
   margin-left: 30px;
-  border: 1px solid #000000;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 0 10px #333;
 `;
 
 export const Label = styled.label`

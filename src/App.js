@@ -6,20 +6,23 @@ import Consulta from './components/Consulta'
 import GlobalStyle from './styles/global'
 import Topbar from './components/Common/Topbar'
 import Background from './components/Common/Background'
+import Footer from './components/Common/Footer'
 
 
 function App() {
   return (
     <>
       <BrowserRouter>
-      <Topbar />
-      
       <Switch>   
         <Route path="/" exact component={Background}/>    
+      <Topbar />
+      
         <Route path="/documents" exact component={Documents}/>
         <Route path="/consult" exact component={Consulta}/>
       </Switch>
       </BrowserRouter>
+
+      <Footer />
 
       <GlobalStyle />      
     </>

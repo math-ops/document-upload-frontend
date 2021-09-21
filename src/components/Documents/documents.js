@@ -16,7 +16,7 @@ export const Form = styled.form`
   border: none;
   border-radius: 5px;
   background: #fff;
-  box-shadow: 0 0 10px #001b94;
+  box-shadow: 0 0 10px #333;
 `;
 
 export const Label = styled.label`

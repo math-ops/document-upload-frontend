@@ -14,7 +14,7 @@ setInterval(function(){
     if(counter > 3 ){
         counter = 1;
     }
-}, 10000);
+}, 4000);
 
   return(
     <>

@@ -6,7 +6,7 @@ export const Header = styled.header`
   margin: 0;
   padding: 20px;
   background: #fff;
-  background-color: #00368c;
+  background-color: #009add;
   
 `;
 
@@ -27,7 +27,7 @@ export const Title = styled.h1`
 `;
 
 
-export const Logout = styled.button`
+export const Logout = styled.a`
   font-family: 'Roboto', sans-serif;
   text-align: right;
   cursor: pointer;
@@ -46,7 +46,7 @@ export const Logout = styled.button`
   }
 `;
 
-export const Home = styled.button`
+export const Home = styled.a`
   font-family: 'Roboto', sans-serif;
   text-align: right;
   cursor: pointer;

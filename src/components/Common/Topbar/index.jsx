@@ -10,8 +10,8 @@ export default function Topbar(){
       <Title>
         Bem vindo(a) {name}!
       </Title>
-      <Home>Home</Home>
-      <Logout>Logout</Logout>      
+      <Home href="/documents">Home</Home>
+      <Logout href="/consult">Logout</Logout>      
     </Header>
     </>
   )
