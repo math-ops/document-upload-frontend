@@ -16,7 +16,7 @@ export const Form = styled.form`
 
   margin-left: 30%;
   margin-right: 30%;
-  margin-top: 3%;
+  margin-top: 6%;
   
 `;
 

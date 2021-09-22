@@ -6,7 +6,7 @@ export const Title = styled.h2`
   opacity: 0.8;
   font-size: 15px;
   color: #333;
-  margin-top: 30px;
+  margin-top: -30px;
   margin-bottom: 10px;
 
   position: absolute;
